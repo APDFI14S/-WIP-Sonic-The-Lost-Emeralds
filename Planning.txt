@@ -1,0 +1,84 @@
+# Sonic can choose what shield he will get: Fire, lightning & bubble shield
+# Sonic will have to go through various rooms to get to the goalpost, and the boss
+# Sonic has 7 different bosses he will need to fight, who will have the chaos emeralds, before fighting the 8th
+  final boss
+
+# The bosses will be located in different zones/acts—the latter of which will have various risks and rewards for
+  traversing them—the pros/cons also varying depending what shield you have
+
+# If you don't have 7 chaos emeralds, you can't fight the final boss. Also if you die, you'll lose a life, but
+  you'll have better odds of making it through the challenges that await, so experience can be an attribute.
+
+
+** ZONE IDEAS **
+
+#1 Speed Highway (Present) 
+#2 Ocean Base (Present) 
+#3 Lava Reef (Present) 
+#4 Flying Fortress (Present) 
+
+#5 Radioactive Ruins (Future)
+#6 Lunar Complex (Future)
+#7 Poached Egg (Future)
+
+
+#8 Speed Highway (Future)
+
+
+
+** ATTRIBUTES (Sonic) **	** ATTRIBUTES (Zones) **
+				
+rings_player			zone		
+lives				hazards_zone
+shield				boss
+chaos_emeralds			rings
+experience			
+
+
+
+
+
+
+
+If sonic goes into any given zone, there will be a chance for whether or not he takes damage through out that zone, depending on...
+
+- What kind of shield he has
+- How risky he wants to play
+- How much experience he has
+
+As for how many rings and lives he can potentially gain?
+
+- What kind of shield he has
+- How risky he wants to play
+- How much experience he has
+
+Then there can be a method to calculate the net ring gain/loss for every 4 segments before a checkpoint, and before a boss,
+something like:
+
+
+def net_ring_gain(self, shield, experience
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
